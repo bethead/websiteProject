@@ -1,0 +1,68 @@
+/*The background color for my webpage*/
+body {
+  background-color: rgb(190, 0, 245);
+}
+.imagec{
+display: block;
+margin-left: auto;
+  margin-right: auto;
+}
+.wrapper {
+    text-align: center;
+}
+/*CSS for text*/
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+}
+h2 {
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25;
+}
+
+ul{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+color: white;
+}
+/*The CSS code to make the buttons look better */
+.button {
+  background-color: rgb(204, 0, 245); /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+ 
+}
+.button3 {
+  background-color: rgb(245, 0, 114); 
+  color: white; 
+}
+
+.button3:hover {
+  background-color: rgb(204, 0, 245);
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+img {
+  border-radius: 5px;
+}
